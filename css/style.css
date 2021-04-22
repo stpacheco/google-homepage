@@ -1,0 +1,21 @@
+.googlelogo {
+    margin: auto;
+    display: block;
+    padding-top: 15%;
+}
+.searchform {
+    padding-top: 50px;
+}
+body {
+    text-align: center;
+}
+input[type=text] {
+    width: 30%;
+    height: 30px;
+    margin-bottom: 60px;
+}
+.search-btn {
+    position: relative;
+    top: 5px;
+    height: 35px;
+}
