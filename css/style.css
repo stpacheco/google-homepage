@@ -11,16 +11,11 @@ body {
     text-align: center;
 }
 input[type=text] {
-    width: 20%;
+    margin:0 auto 20px;
+    width:500px;
     height: 30px;
-    margin-bottom: 40px;
-    border-radius: 60px;
-}
-.search-btn {
-    position: relative;
-    top: 5px;
-    height: 35px;
-    border-radius: 50px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
 }
 ul {
     margin: 0;
@@ -34,6 +29,7 @@ li {
     font-family: Arial, sans-serif;
     font-size: 12px;
 }
+
 .profile {
     color: white;
     background-color: #eb670f;
@@ -42,9 +38,7 @@ li {
     width: 30px;
     text-align: center;
     line-height: 30px;
-    font-size: ;
     font-family: 'Roboto', sans-serif;
-    font-weight: ;
     float: right;
     position: relative;
     right: 10px;
@@ -61,12 +55,43 @@ a {
 }
 .search {
     border-width: 0px;
+    border-radius: 5px;
     padding: 10px;
     margin-left: 15px;
-    position: ;
+    color: rgb(53, 53, 53)
 }
 #app-icon {
     position: relative;
     top: 10px;
     right: -10px;
+    color: gray;
+}
+#app-icon:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 100%;
+    align-self: center;
+    background-position:inherit;
+}
+li:hover {
+    text-decoration: underline;
+}
+footer {
+    width: 100% ;
+    position: fixed;
+    bottom: 0px;
+    right: -1px;
+    border-top: 1px solid rgb(214, 213, 213);
+    background-color: rgb(240, 240, 240);
+    height: 45px;
+    line-height: 45px;
+}
+.right {
+    float: right;
+    padding-right: 20px;
+    color: gray;
+}
+.left {
+    float: left;
+    margin-left: 20px;
+    color: gray;
 }
