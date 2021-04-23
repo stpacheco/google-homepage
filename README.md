@@ -7,5 +7,5 @@ I'll state what I've learnt throughout the process in the following lines, once 
 
 - Create navbars
 - Include icons into CSS
-- Use 'text-decoration- for anchors to remove underline
+- Use 'text-decoration' for anchors to remove underline
 
